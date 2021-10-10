@@ -1,0 +1,58 @@
+/* navigation bar  */
+#navbar {
+    flex-direction: column;
+}
+#navbar ul li a{
+    color: white;
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+    
+/* home  */
+#home{
+    height: 400px;
+    padding: 62px 103px 1px
+}
+#home::before{
+    height:380px;
+}
+#home p{
+    font-size: 13px;
+    color: rgb(252, 248, 5);
+}
+
+/* culture  */
+#culture{
+    flex-direction: column;
+}
+#culture .box{
+    
+}
+
+
+/* history */
+#history{
+    margin: 0px;
+}
+#history .box{
+    padding: 12px;
+    margin: 31px 138px;
+}
+/* animation */
+
+/* client */
+#clients{
+   flex-wrap: wrap;
+}
+#clients img{
+    width: 6px;
+    padding: 6px;
+}
+/* utility section  */
+ .h-primary{
+    font-size:2rem;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 6px;
+}
